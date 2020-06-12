@@ -1,13 +1,14 @@
 body {
   margin: 20px 40px;
+  text-align: center;
+  background: rgb(235, 235, 235);
 }
 
 .job {
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
   padding: 20px 10px;
   align-items: center;
 }
@@ -48,4 +49,9 @@ body {
 
 .job-title-location {
   margin-left: 20px;
+}
+
+.pagination{
+  width: 50%;
+  margin: 20px auto;
 }

@@ -55,6 +55,7 @@ export default function Jobs ({ jobs }) {
                 Page {activeStep + 1} of {numPages}
             </div>
             <MobileStepper
+                className="pagination"
                 variant="progress"
                 steps={numPages}
                 position="static"
